@@ -69,3 +69,6 @@ desktop.ini
 *.tmp
 *.bak
 *.orig
+
+# Large zip archives (exceed GitHub 100MB limit)
+*.zip
