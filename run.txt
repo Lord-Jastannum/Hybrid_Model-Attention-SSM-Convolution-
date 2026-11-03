@@ -1,0 +1,5 @@
+./env/Scripts/activate 
+
+
+cd /mnt/c/Users/jatin/Desktop/hybrid_model
+source mamba_env/bin/activate

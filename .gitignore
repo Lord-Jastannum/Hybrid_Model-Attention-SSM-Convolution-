@@ -1,0 +1,71 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+mamba_env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and processed data
+data/raw/
+data/processed/
+data/cache/
+datasets/
+*.pt
+*.pth
+*.bin
+
+# Model checkpoints and weights
+checkpoints/
+outputs/checkpoints/
+*.ckpt
+*.safetensors
+
+# Training outputs and logs
+outputs/logs/
+outputs/runs/
+logs/
+*.log
+wandb/
+mlruns/
+
+# Generated plots and reports
+outputs/plots/
+reports/generated/
+
+# CUDA and build files
+build/
+dist/
+*.egg-info/
+*.o
+*.a
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
